@@ -6,6 +6,7 @@
                         background-color: #2a2a2a;
                         font-family: "Roboto";
                         padding: 2px;
+                        margin: 0;
                     }
 
                     .top1 a {
@@ -161,6 +162,7 @@
                     .body {
                         margin: 0;
                         padding: 0;
+                        background: #2a2a2a;
                     }
 
                     .button {
@@ -178,41 +180,74 @@
 
 
 @media only screen and (min-device-width: 400px) {
-                    * {
+                     * {
                         color: whitesmoke;
                         background-color: #2a2a2a;
                         font-family: "Roboto";
                         padding: 2px;
+                        margin: 0;
                     }
 
-                    .top a {
+                    .top1 a {
                         float: center;
                         color: white;
                         text-align: center;
                         padding: 14px 16px;
                         text-decoration: none;
-                        border-radius: px;
-                        padding: 20px;
-                        width: 200px;
-                        height: 100px;
-                    }
-
-                    .top a:hover {
-                        background-color: white;
-                        color: black;
                         border-radius: 5px;
                         padding: 20px;
                         width: 200px;
                         height: 100px;
                     }
 
-                    .top a.active {
+                    .top1 a:hover {
+                        background-color: white;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 50px;
+                        height: 25px;
+                    }
+
+                    .top1 a.active {
                         background-color: greenyellow;
                         color: black;
                         border-radius: 5px;
                         padding: 20px;
                         width: 200px;
                         height: 100px;
+
+                    }
+
+                    .top2 a {
+                        float: center;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        padding: 20spx;
+                        width: 100px;
+                        height: 100px;
+                    }
+
+                    .top2 a:hover {
+                        background-color: white;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 50px;
+                        height: 25px;
+                    }
+
+                    .top2 a.active {
+                        background-color: greenyellow;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 200px;
+                        height: 100px;
+
                     }
 
                     .title {
@@ -306,6 +341,21 @@
                     .body {
                         margin: 0;
                         padding: 0;
+                        background: #2a2a2a;
+                        margin: 0;
+                    }
+
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        background: #2a2a2a;
+                        margin: 0;
+                    }
+
+
+                    .div {
+                        background: #2a2a2a;
+                        margin: 0;
                     }
 
                     .button {
