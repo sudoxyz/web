@@ -1,138 +1,320 @@
-                * {
-                    color: whitesmoke;
-                    background-color: #2a2a2a;
-                    font-family: "Roboto";
-                    padding: 2px;
-                }
-                
-                .top a {
-                    float: center;
-                    color: white;
-                    text-align: center;
-                    padding: 14px 16px;
-                    text-decoration: none;
-                    border-radius: px;
-                    padding: 20px;
-                    width: 200px;
-                    height: 100px;
-                }
-                
-                .top a:hover {
-                    background-color: white;
-                    color: black;
-                    border-radius: 5px;
-                    padding: 20px;
-                    width: 200px;
-                    height: 100px;
-                }
-                
-                .top a.active {
-                    background-color: greenyellow;
-                    color: black;
-                    border-radius: 5px;
-                    padding: 20px;
-                    width: 200px;
-                    height: 100px;
-                }
-                
-                .title {
-                    color: greenyellow;
-                    font-style: inherit;
-                }
-                
-                .image-me {
-                    width: 250px;
-                    height: 250px;
-                }
-                
-                .contact2 {
-                    font-weight: bold;
-                }
-                
-                .fade {
-                    animation: fadeIn 5s forwards;
-                    -webkit-animation: fadeIn 5s forwards;
-                    -moz-animation: fadeIn 5s forwards;
-                    -o-animation: fadeIn 5s forwards;
-                    -ms-animation: fadeIn 5s forwards;
-                }
-                
-                @keyframes fadeIn {
-                    0% {
-                        opacity: 0;
+
+
+@media only screen and (max-device-width: 400px) {
+                    * {
+                        color: whitesmoke;
+                        background-color: #2a2a2a;
+                        font-family: "Roboto";
+                        padding: 2px;
                     }
-                    100% {
-                        opacity: 1;
+
+                    .top1 a {
+                        float: center;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 200px;
+                        height: 100px;
                     }
-                }
-                
-                @-moz-keyframes fadeIn {
-                    0% {
-                        opacity: 0;
+
+                    .top1 a:hover {
+                        background-color: white;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 50px;
+                        height: 25px;
                     }
-                    100% {
-                        opacity: 1;
+
+                    .top1 a.active {
+                        background-color: greenyellow;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 200px;
+                        height: 100px;
+
                     }
-                }
-                
-                @-webkit-keyframes fadeIn {
-                    0% {
-                        opacity: 0;
+
+                    .top2 a {
+                        float: center;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        padding: 20spx;
+                        width: 100px;
+                        height: 100px;
                     }
-                    100% {
-                        opacity: 1;
+
+                    .top2 a:hover {
+                        background-color: white;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 50px;
+                        height: 25px;
                     }
-                }
-                
-                @-o-keyframes fadeIn {
-                    0% {
-                        opacity: 0;
+
+                    .top2 a.active {
+                        background-color: greenyellow;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 200px;
+                        height: 100px;
+
                     }
-                    100% {
-                        opacity: 1;
+
+                    .title {
+                        color: greenyellow;
+                        font-style: inherit;
                     }
-                }
-                
-                @-ms-keyframes fadeIn {
-                    0% {
-                        opacity: 0;
+
+                    .image-me {
+                        width: 250px;
+                        height: 250px;
                     }
-                    100% {
-                        opacity: 1;
+
+                    .contact2 {
+                        font-weight: bold;
                     }
-                }
-                /* width */
-                
-                 ::-webkit-scrollbar {
-                    width: 5px;
-                }
-                /* Track */
-                
-                 ::-webkit-scrollbar-track {
-                    background: black;
-                }
-                /* Handle */
-                
-                 ::-webkit-scrollbar-thumb {
-                    background: greenyellow;
-                    border-radius: 5px;
-                }
-                /* Handle on hover */
-                
-                 ::-webkit-scrollbar-thumb:hover {
-                    background: green;
-                }
-                
-                body {
-                    margin: 0;
-                    padding: 0;
-                }
-                
-                .button {
-                    border-radius: 4px;
-                    padding: 5px;
-                    background-color: greenyellow;
-                    border: none;
-                    color: black;
-                    text-decoration: none;
-                }
+
+                    .fade {
+                        animation: fadeIn 5s forwards;
+                        -webkit-animation: fadeIn 5s forwards;
+                        -moz-animation: fadeIn 5s forwards;
+                        -o-animation: fadeIn 5s forwards;
+                        -ms-animation: fadeIn 5s forwards;
+                    }
+
+                    @keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-moz-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-webkit-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-o-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-ms-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+                    /* width */
+
+                     ::-webkit-scrollbar {
+                        width: 5px;
+                    }
+                    /* Track */
+
+                     ::-webkit-scrollbar-track {
+                        background: black;
+                    }
+                    /* Handle */
+
+                     ::-webkit-scrollbar-thumb {
+                        background: greenyellow;
+                        border-radius: 5px;
+                    }
+                    /* Handle on hover */
+
+                     ::-webkit-scrollbar-thumb:hover {
+                        background: green;
+                    }
+
+                    .body {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    .button {
+                        border-radius: 4px;
+                        padding: 5px;
+                        background-color: greenyellow;
+                        border: none;
+                        color: black;
+                        text-decoration: none;
+                    }
+
+}
+
+
+
+
+@media only screen and (min-device-width: 400px) {
+                    * {
+                        color: whitesmoke;
+                        background-color: #2a2a2a;
+                        font-family: "Roboto";
+                        padding: 2px;
+                    }
+
+                    .top a {
+                        float: center;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        border-radius: px;
+                        padding: 20px;
+                        width: 200px;
+                        height: 100px;
+                    }
+
+                    .top a:hover {
+                        background-color: white;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 200px;
+                        height: 100px;
+                    }
+
+                    .top a.active {
+                        background-color: greenyellow;
+                        color: black;
+                        border-radius: 5px;
+                        padding: 20px;
+                        width: 200px;
+                        height: 100px;
+                    }
+
+                    .title {
+                        color: greenyellow;
+                        font-style: inherit;
+                    }
+
+                    .image-me {
+                        width: 250px;
+                        height: 250px;
+                    }
+
+                    .contact2 {
+                        font-weight: bold;
+                    }
+
+                    .fade {
+                        animation: fadeIn 5s forwards;
+                        -webkit-animation: fadeIn 5s forwards;
+                        -moz-animation: fadeIn 5s forwards;
+                        -o-animation: fadeIn 5s forwards;
+                        -ms-animation: fadeIn 5s forwards;
+                    }
+
+                    @keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-moz-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-webkit-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-o-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    @-ms-keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+                    /* width */
+
+                     ::-webkit-scrollbar {
+                        width: 5px;
+                    }
+                    /* Track */
+
+                     ::-webkit-scrollbar-track {
+                        background: black;
+                    }
+                    /* Handle */
+
+                     ::-webkit-scrollbar-thumb {
+                        background: greenyellow;
+                        border-radius: 5px;
+                    }
+                    /* Handle on hover */
+
+                     ::-webkit-scrollbar-thumb:hover {
+                        background: green;
+                    }
+
+                    .body {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    .button {
+                        border-radius: 4px;
+                        padding: 5px;
+                        background-color: greenyellow;
+                        border: none;
+                        color: black;
+                        text-decoration: none;
+                    }
+
+}
